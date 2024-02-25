@@ -261,7 +261,7 @@ function updateTime() {
     const formattedSec = sec < 10 ? "0" + sec : sec;
 
     const clock = document.querySelector('.clock');
-    clock.innerHTML = `${formattedHour}:${formattedMin}:${formattedSec} ${hour >= 12 ? 'PM' : 'AM'}`;
+    clock.innerHTML = `${formattedHour}:${formattedMin} ${hour >= 12 ? 'PM' : 'AM'}`;
 
     setTimeout(updateTime, 1000);
 }

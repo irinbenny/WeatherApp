@@ -143,7 +143,6 @@ body.active{
     height: 70%;
     background-color: #4c76774b;
     color: #fff;
-    border-radius: 25px;
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.26);
     margin-top: 10px;
     background-image: linear-gradient(
@@ -269,7 +268,7 @@ body.active{
   }
   .city-name{
     margin-top: -15px;
-    color: #ffffffbd;
+    color: #ffff;
   }
   /* content section */
   .content_section {
@@ -283,32 +282,7 @@ body.active{
     position: relative;
   }
   
-  .content_section form input {
-    width: 75%;
-    outline: none;
-    background: transparent;
-    border: 1px solid #37474f;
-    border-radius: 15px;
-    padding: 0.6rem 1rem;
-    font-family: inherit;
-    color: #425e23;
-    font-size: 1.5rem;
-  }
   
-  .content_section form button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 15px;
-    padding: 0.9rem 0.5rem;
-    font-family: inherit;
-    font-size: 1.2rem;
-    outline: none;
-    border: none;
-    background: #31af85;
-    color: #fff;
-    cursor: pointer;
-  }
   
   .day_info .content {
     display: flex;
@@ -319,7 +293,8 @@ body.active{
   .day_info .content .title {
     font-weight: 600;
   }
-  
+
+
   .list_content ul {
     display: grid;
     list-style-type: none;
@@ -395,34 +370,69 @@ body.active{
   #submitBtn{
     margin-left: 75px 
   }
-  .container2{
+  .container2 {
     width: 300px;
-    margin-top: 350px;
+    margin-top: -43px;
+    margin-right: 95px;
     height: 30%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.26);
   }
   .wrapper1{
-    grid-gap: 0.1rem;
+    grid-gap: 0.5rem;
   }
   .img_section{
     border-radius: 1px;
     height: 50%;;
   }
+  .flexed{
+    display: flex;
+   
+  }
+
   .clock{
     font-size: 16px;
   }
   #toggle{
     width: 30px;
     height: 10px;
+
   }
   #toggle .indicator{
     width: 10px;
     height:10px;
   }
+  #toggle.active .indicator{
+    left:10px;
+}
   .temperature {
     font-size: 2.5rem;
     margin-top: 340px;
   }
   .content_section{
     padding: 1.1rem;
+  }
+  .content span{
+    margin-top: -4px;
+  }
+  
+  .day_info .content .title {
+    font-size: 12px;
+  }
+  .list_content ul {
+    display: grid;
+    list-style-type: none;
+    margin: 3rem 0rem;
+    gap:1rem;
+    border-radius: 25px;
+  }
+  .list_content ul li {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    font-size: 23px;
+    transition: all 0.3s ease-in;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
   }
 }

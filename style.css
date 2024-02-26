@@ -372,6 +372,7 @@ body.active{
     margin-right: 95px;
     height: 30%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.26);
+    background-image:url('https://i.pinimg.com/564x/52/22/91/5222919902af3b5ae34cf400887a6905.jpg');
   }
   .wrapper1{
     grid-gap: 0.5rem;
